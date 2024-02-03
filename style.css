@@ -1,5 +1,5 @@
 body {
-    --background: #fafafa;
+    --background: #000;
     --white: #FFFFFF;
     --black: #000000;
     --button-primary: #0095f6;
@@ -123,7 +123,8 @@ form {
     background-color: var(--white);
     border: 1px solid var(--border-primary);
     padding: 20px 0;
-
+    margin-left: 20px;
+    border-radius: 10px;
 }
 
 .text-login {
