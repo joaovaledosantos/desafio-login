@@ -1,0 +1,41 @@
+body{
+    --background: #fafafa;
+    --white: #FFFFFF;
+    --black: #000000;
+    --button-primary: #0095f6;
+    --border-primary: #e6e6e6;
+
+    background: var(--background);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#wrapper {
+    height: 100vh;
+}
+
+#container-signup {
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-button {
+    width: 320px;
+    margin: 10px 0;
+    height: 35px;
+    background-color: var(--button-primary);
+    color: var(--white);
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
