@@ -106,7 +106,7 @@ input[type="submit"] {
 }
 
 .column {
-    flex-flow: 1;
+    flex-grow: 1;
     width: 50%;
 }
 
